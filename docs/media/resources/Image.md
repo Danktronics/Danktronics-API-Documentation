@@ -1,6 +1,6 @@
 # Image Resources
 
-This documents all functionality related to images
+This documents all functionality related to images.
 
 ### Uploaded Image Object
 
