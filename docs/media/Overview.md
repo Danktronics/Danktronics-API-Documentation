@@ -6,6 +6,8 @@ To get started navigate to the resources folder.
 
 # Reference
 
+**Danktronics Administrators reserve the right to restrict or ban API access.**
+
 ###### Base URL
 
 ```
