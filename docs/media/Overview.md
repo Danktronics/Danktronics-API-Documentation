@@ -34,3 +34,15 @@ Currently all responses follow the same data structure
 | ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | code                          | integer                                                                             | HTTP response code                                                                                                               |
 | data                          | object                                                                              | relevant data                                                                                                                    |
+
+## Nullable and Optional Resource Keys
+
+Below is a table detailing what a key returned by the API can be.
+
+###### Example Nullable and Optional Fields
+
+| Key                          | Type    |
+| ---------------------------- | ------- |
+| optional_key?                | string  |
+| nullable_key                 | ?string |
+| optional_and_nullable_key?   | ?string |
