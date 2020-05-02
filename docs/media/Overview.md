@@ -1,6 +1,6 @@
 # Danktronics Media
 
-Welcome to API documentation for the Danktronics Media service.
+Welcome to the documentation for the Danktronics Media API.
 
 To get started navigate to the resources folder.
 
@@ -37,7 +37,7 @@ Currently all responses follow the same data structure
 
 ## Nullable and Optional Resource Keys
 
-Below is a table detailing what a key returned by the API can be.
+Below is a table detailing what keys the API may return.
 
 ###### Example Nullable and Optional Fields
 
