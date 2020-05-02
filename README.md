@@ -1,6 +1,6 @@
 # Danktronics Official API Documentation
 
-This repository contains the documentation of public Danktronics APIs.
+This repository contains the documentation of the Danktronics APIs.
 
 * [Danktronics Media](docs/media)
 
