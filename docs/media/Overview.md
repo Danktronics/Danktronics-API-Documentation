@@ -1,6 +1,6 @@
 # Danktronics Media
 
-Welcome to the documentation for the Danktronics Media API.
+Welcome to API documentation for the Danktronics Media service.
 
 To get started navigate to the resources folder.
 
