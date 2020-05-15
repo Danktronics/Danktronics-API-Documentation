@@ -13,7 +13,6 @@ This documents all functionality related to images.
 | extension                     | string                                                                              | image extension                                                                                                                  |
 | url                           | string                                                                              | ease of use url for accessing the image                                                                                          |
 | owner                         | snowflake                                                                           | id of the uploader/owner                                                                                                         |
-| created_at                    | ISO8601 timestamp                                                                   | when the image was uploaded                                                                                                      |
 
 ## Upload Image - POST /images
 

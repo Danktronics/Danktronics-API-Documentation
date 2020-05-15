@@ -12,7 +12,6 @@ This documents all functionality related to posts.
 | title                         | string                                                                              | title of the post                                                                                                                |
 | message                       | string                                                                              | post content                                                                                                                     |
 | creator                       | snowflake                                                                           | id of the poster                                                                                                                 |
-| created_at                    | ISO8601 timestamp                                                                   | when the post was created                                                                                                        |
 
 ## Get Posts - GET /posts
 
