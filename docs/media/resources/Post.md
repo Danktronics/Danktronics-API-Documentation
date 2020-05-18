@@ -11,7 +11,7 @@ This documents all functionality related to posts.
 | id                            | snowflake                                                                           | post identifier                                                                                                                  |
 | title                         | string                                                                              | title of the post                                                                                                                |
 | message                       | string                                                                              | post content                                                                                                                     |
-| creator                       | snowflake                                                                           | id of the poster                                                                                                                 |
+| creator_id                    | snowflake                                                                           | id of the poster                                                                                                                 |
 
 ## Get Posts - GET /posts
 
