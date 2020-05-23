@@ -22,18 +22,15 @@ The `Authorization` header must always be present and contain an API token.
 
 An API token can currently be retrieved by going to settings on the website and revealing the token.
 
-## Processing Responses
+## Versioning
+Media can expose multiple versions of the API (often for testing or deprecation purposes). In order to specify the version of the API you would like to use, you must prefix the route with `/api/v{version_number}/`. If you don't include a version in the URL then the API will automatically default to the latest current stable version. The following table documents the current state of API versions.
 
-Currently all responses follow the same data structure
+###### API Versions
 
-> :warning: **This structure is going to be removed in a future version**
-
-###### Response Structure
-
-| Key                           | Type                                                                                | Description                                                                                                                      |
-| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| code                          | integer                                                                             | HTTP response code                                                                                                               |
-| data                          | object                                                                              | relevant data                                                                                                                    |
+| Version | Status       | Stable  |
+| ------- | ------------ | ------- |
+| 1       | Discontinued | ✔️      |
+| 2       | Available    | ✔️      |
 
 ## Nullable and Optional Resource Keys
 
