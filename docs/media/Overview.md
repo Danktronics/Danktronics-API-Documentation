@@ -29,7 +29,7 @@ Media can expose multiple versions of the API (often for testing or deprecation 
 
 | Version | Status       | Stable  |
 | ------- | ------------ | ------- |
-| 1       | Discontinued | ✔️      |
+| 1       | Discontinued |         |
 | 2       | Available    | ✔️      |
 
 ## Nullable and Optional Resource Keys
