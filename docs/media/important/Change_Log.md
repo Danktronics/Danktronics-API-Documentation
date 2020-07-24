@@ -1,5 +1,13 @@
 # Change Log
 
+## Limiting Data Retrieval
+
+### TBD
+
+* Now by default the Images and QuickLinks GET endpoint will return 10 items
+* Images and QuickLinks GET endpoint can be customized with before, after, and limit (to retrieve more data)
+* Images and QuickLinks GET endpoint return the total number of items owned by the current user (as this would be taxing to calculate with multiple requests)
+
 ## Removal of uniform data structure and ISO creation times
 
 ### 5/21/2020
