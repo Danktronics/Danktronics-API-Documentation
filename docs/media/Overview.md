@@ -31,6 +31,7 @@ Media can expose multiple versions of the API (often for testing or deprecation 
 | ------- | ------------ | ------- |
 | 1       | Discontinued |         |
 | 2       | Available    | ✔️      |
+| 3       | Available    | ✔️      |
 
 ## Nullable and Optional Resource Keys
 
