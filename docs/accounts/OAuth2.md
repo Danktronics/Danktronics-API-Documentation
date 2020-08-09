@@ -4,7 +4,7 @@ OAuth2 allows your applications to interact with the Danktronics Accounts API as
 
 ## Reference
 
-If you are implementing OAuth2 without a library, read [RFC6749](https://tools.ietf.org/html/rfc6749) for how to format requests.
+If you are implementing OAuth2 without a library, read [RFC 6749](https://tools.ietf.org/html/rfc6749) for how to format requests.
 
 ## URLs
 
@@ -23,5 +23,5 @@ The following are valid scopes to access certain information or perform actions.
 
 | Name                       | Description                                                                                                                                           |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| identify                   | grants [/users/@me](docs/accounts/resources/User.md)                                                                                                  |
-| connections                | grants [/users/@me/connections](docs/accounts/resources/User.md)                                                                                      |
+| identify                   | grants [/users/@me](/docs/accounts/resources/User.md#get-current-user---get-usersme)                                                                  |
+| connections                | grants [/users/@me/connections](/docs/accounts/resources/User.md#get-current-user-connections---get-usersmeconnections)                               |
