@@ -12,8 +12,8 @@ If you are implementing OAuth2 without a library, read [RFC 6749](https://tools.
 
 | URL                                            | Description               |
 | ---------------------------------------------- | --------------------------|
-| https://danktronics.org/oauth2/authorize       | Authorization request URL |
-| https://danktronics.org/api/oauth2/token       | Access Token URL          |
+| https://accounts.danktronics.org/oauth2/authorize       | Authorization request URL |
+| https://accounts.danktronics.org/api/oauth2/token       | Access Token URL          |
 
 ## Scope
 
