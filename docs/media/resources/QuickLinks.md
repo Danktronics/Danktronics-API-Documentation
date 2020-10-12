@@ -16,7 +16,20 @@ This documents all functionality related to quick links.
 
 ## Get QuickLink - GET /quicklinks
 
-Returns an array of the current user's quick links
+Returns some of the current user's quick links
+
+Query String Parameters
+| Key                           | Type                                                                                | Description                                                                                                                      |
+| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| before                        | snowflake                                                                           | get quick links before this ID                                                                                                   |
+| after                         | snowflake                                                                           | get quick links after this ID                                                                                                    |
+| limit                         | integer                                                                             | amount of quick links to return (default of 10)                                                                                  |
+
+Response
+| Key                           | Type                                                                                | Description                                                                                                                      |
+| ----------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| total_count                   | integer                                                                             | amount of owned quick links                                                                                                      |
+| quick_links                   | array of QuickLink objects                                                          | array of owned quick links                                                                                                       |
 
 ## Create QuickLink - POST /quicklinks
 
